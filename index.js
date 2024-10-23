@@ -99,7 +99,7 @@ function pyramidCounting(int) {
 
   function noVowels(string) {
     let novow = '';
-    for (i = 0; i < string.length; i++) {
+    for (let i = 0; i < string.length; i++) {
         if(!vowelsArray.includes(string[i])) {
             novow += string[i]
         }
@@ -120,7 +120,7 @@ function pyramidCounting(int) {
   // PUT YOUR CODE HERE
 
   function vowelCount(string) {
-    count = 0;
+    let count = 0;
     for (let i = 0; i <= string.length - 1; i++) {
         if(vowelsArray.includes(string[i]))
             count += 1;
